@@ -61,9 +61,9 @@ NEWSPIDER_MODULE = 'livemaster_ru.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'livemaster_ru.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'livemaster_ru.pipelines.LivemasterRuPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
